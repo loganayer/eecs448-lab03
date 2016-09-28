@@ -1,0 +1,43 @@
+body 
+{
+    background-image: url("background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: blue;
+    color: black;
+    font-family: arial;
+	font-size: 22pt;
+}
+div.profilepic
+{
+    width: 50%;
+    border: 1px solid gray;
+	display: inline-block;
+	float: left;
+}
+div.bio
+{
+    width: 49%;
+    border: 1px solid gray;
+	display: inline-block;
+	float: right;
+}
+div.links
+{
+    width: 49%;
+    border: 1px solid gray;
+	display: inline-block;
+	float: right;
+}
+div.video
+{
+    width: 50%;
+    border: 1px solid gray;
+	display: inline-block;
+	float: left;
+}
+a:hover
+{
+    color: blue
+}
